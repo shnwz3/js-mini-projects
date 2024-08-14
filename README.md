@@ -1,4 +1,4 @@
 <nav>
-  <li>Dictionary Applicatio</li>
-  <p>Used <a href="https://dictionaryapi.dev/">Dictionary Api</a> practised using async,fetch in javascript</p>
+  <li>Dictionary Application</li>
+  <p>Used <a href="https://dictionaryapi.dev/">Dictionary Api</a> Practised Async, Fetch in javascript</p>
 </nav>
