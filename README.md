@@ -3,5 +3,5 @@
 Used <a href="https://dictionaryapi.dev/">Dictionary Api</a> Practised Async and Fetch in javascript
 
 ### Dictionary Application
-![](https://imgur.com/fVy3UHN)
+![](https://imgur.com/a/525AnYq)
 
