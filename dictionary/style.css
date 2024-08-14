@@ -1,0 +1,110 @@
+:root{
+    --header-color:#008080;
+    --bg-color:#ffffff;
+    --pad:20px;
+    --text:rgb(0, 0, 0);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+    background: var(--bg-color);
+    color: var(--text);
+    width:100vw;
+    height: 100%;
+}
+header{
+    background: var(--header-color);
+    padding: var(--pad);
+    text-align: center;
+    width: 100%;
+}
+header h1{
+    font-size: 36px;
+}
+main{
+    min-height: 80vh;
+    padding: var(--pad);
+    max-width: 800px;
+    margin: 0 auto;
+}
+main form{
+    display: flex;
+    justify-content: center;
+
+}
+form input[type='text']{
+    flex-grow: 1;
+
+}
+form input[type='text'],button[type='text']{
+    /* border: none; */
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 5px;
+    padding: calc(var(--pad)/2);
+}
+button{
+    background: var(--header-color);
+    color: white;
+    margin-left: 10px;
+    cursor: pointer;
+    padding: 10px;
+
+    
+}
+footer {
+    background: var(--header-color);
+    color: var(--text);
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.result{
+    
+    padding: var(--pad);
+    border-radius: 5px;
+    margin-top:20px ;
+   
+}
+.result p {
+    margin-top: 10px;
+
+}
+.result p[class='POS']{
+    font-style: italic;
+    color: #757575;
+    margin-top: 2px;
+}
+.result div{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.result div a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 5px;
+    background: var(--header-color);
+}
+.result li{
+    padding: var(--pad/6);
+    margin-left: 20px;
+}
+@media screen and (max-width:320px){
+    main form{
+        flex-direction: column;
+    }
+    form button[type='submit']{
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+}
